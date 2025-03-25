@@ -46,7 +46,7 @@ class Mall extends BaseStage
 		if(isStoryMode && !seenCutscene)
 			setEndCallback(eggnogEndCutscene);
 		
-		gfthing = new GFSpeaker(gfGroup.x, gfGroup.y + 550);
+		gfthing = new GFSpeakerChristmas(gfGroup.x, gfGroup.y + 550);
 		add(gfthing);
 	}
 
