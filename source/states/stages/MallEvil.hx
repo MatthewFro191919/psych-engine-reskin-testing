@@ -20,7 +20,7 @@ class MallEvil extends BaseStage
 		add(evilSnow);
 		setDefaultGF('gf-christmas');
 		
-		gfthing = new GFSpeaker(gfGroup.x, gfGroup.y + 550);
+		gfthing = new GFSpeakerChristmas(gfGroup.x, gfGroup.y + 550);
 		add(gfthing);
 
 		//Winter Horrorland cutscene
