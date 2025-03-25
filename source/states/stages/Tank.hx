@@ -42,7 +42,7 @@ class Tank extends BaseStage
 		ruins.updateHitbox();
 		add(ruins);
 		
-		gfthing = new GFSpeaker(gfGroup.x, gfGroup.y + 550);
+		gfthing = new GFSpeakerTankmen(gfGroup.x, gfGroup.y + 550);
 		add(gfthing);
 
 		if(!ClientPrefs.data.lowQuality)
